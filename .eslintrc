@@ -25,6 +25,12 @@
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
     ],
     "max-lines": ["error", 80],
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "import/prefer-default-export": "off",
+    "react/state-in-constructor": "off",
+    "import/extensions": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "comma-dangle": "off",
+    "implicit-arrow-linebreak": "off"
   }
 }

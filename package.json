@@ -1,16 +1,18 @@
 {
   "name": "portal-frontend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "portal department legal PT.PP (Persero)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "web",
+    "react"
+  ],
+  "author": "ridho azhar <azharridho42@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -19,12 +21,17 @@
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
     "reactstrap": "^8.2.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
     "typestyle": "^2.0.4"
   },
   "devDependencies": {
     "@types/node": "^12.12.14",
     "@types/react": "^16.9.13",
+    "@types/react-redux": "^7.1.5",
     "@types/reactstrap": "^8.2.0",
     "@typescript-eslint/eslint-plugin": "^2.12.0",
     "@typescript-eslint/parser": "^2.12.0",
