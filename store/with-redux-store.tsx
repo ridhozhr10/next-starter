@@ -5,6 +5,7 @@
 import React from "react";
 import { initializeStore, exampleInitialState } from "./index";
 
+declare let window: any;
 const isServer = typeof window === "undefined";
 const __NEXT_REDUX_STORE__ = "__NEXT_REDUX_STORE__";
 
@@ -13,7 +14,6 @@ function getOrCreateStore(initialState: any) {
   if (isServer) {
     return initializeStore(initialState);
   }
-
   // Store in global variable if client
   if (!window[__NEXT_REDUX_STORE__]) {
     window[__NEXT_REDUX_STORE__] = initializeStore(initialState);
